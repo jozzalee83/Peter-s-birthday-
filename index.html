@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Peter!</title>
+    <style>
+        body {
+            background-color: #1a2e1a;
+            color: #f4f4f9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .card {
+            background: #2c4a2c;
+            border-radius: 15px;
+            padding: 25px;
+            max-width: 400px;
+            width: 100%;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+            border: 2px solid #4d7c4d;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+            height: auto;
+            object-fit: cover;
+            max-height: 350px;
+            border: 2px solid #8fa98f;
+        }
+        h1 {
+            color: #ffd700;
+            font-size: 1.8rem;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.5;
+            color: #d1e7d1;
+        }
+        audio {
+            width: 100%;
+            margin-top: 15px;
+            border-radius: 30px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 0.85rem;
+            color: #9cb89c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="murray.jpg" alt="Murray the Fisherman">
+        <h1>Happy Birthday, Peter!</h1>
+        <p><em>"G'day mate, I'm Murray! May your catches be big and your beers be cold. Have an absolute legend of a day!"</em></p>
+        
+        <!-- Audio player for Murray's voice message -->
+        <audio controls autoplay>
+            <source src="murray-birthday.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <div class="footer">
+        Powered by an NFC Tag & GitHub Pages 🎣
+    </div>
+
+</body>
+</html>
